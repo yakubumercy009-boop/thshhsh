@@ -17,7 +17,7 @@ def median_mode(numbers):
         return None, None
     med = statistics.median(numbers)
     try:
-        mod = statistics.mode(numbers)
+        mod = statistics.mode(numbers) hshsjsjsjsjsjsjsjsjsgdhdjeidjdhdhdhdjdjdjjdjdhsjdjdjs
     except statistics.StatisticsError:
         counter = Counter(numbers)
         max_count = max(counter.values())
