@@ -30,4 +30,4 @@ if __name__ == "__main__":
     print("Average:", average_numbers(nums))
     median, mode = median_mode(nums)
     print("Median:", median)
-    print("Mode:", mode)
+    print("Mode:", mode).
